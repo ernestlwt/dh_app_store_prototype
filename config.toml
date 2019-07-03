@@ -7,6 +7,7 @@ copyright = "Digital Hub - All rights reserved"
 disqusShortname = "digitalDisque"
 # googleAnalytics = ""
 enableEmoji = true
+pluralizelisttitles = false
 
 [params]
   logo = "/images/chubbymonkey.jpg"
@@ -19,13 +20,13 @@ enableEmoji = true
   description = "Digitalizing the way we defend"
 
 ## Landing Page
-[params.index]
-  picture = "/images/chubbymonkey.jpg"
-  title = "Digital Hub"
-  subtitle = "I'm a unique placeholder. Working here and there!"
-  mdtext = '''Currently trying to get this blog running, still don't know what the blog will be about!\
-'''
-  alertbar = true
+# [params.index]
+#   picture = "/images/chubbymonkey.jpg"
+#   title = "Digital Hub"
+#   subtitle = "I'm a unique placeholder. Working here and there!"
+#   mdtext = '''Currently trying to get this blog running, still don't know what the blog will be about!\
+# '''
+#   alertbar = true
 
 [params.social]
   github = "<username>"
@@ -37,24 +38,49 @@ enableEmoji = true
 
 ## Main Menu
 [[menu.main]]
-  name = "Blog"
-  weight = 200
-  identifier = "blog"
-  url = "/blog"
-[[menu.main]]
   name = "Home"
   weight = 100
-  identifier = "home"
+  identifier = "blog"
   url = "/"
+
+[[menu.main]]
+  name = "Computer Vision"
+  weight = 200
+  identifier = "Computer Vision"
+  url = "/computer vision"
+
+[[menu.main]]
+  name = "Natural Language Processing"
+  weight = 201
+  identifier = "Natural Language Processing"
+  url = "/natural language processing"
+
+[[menu.main]]
+  name = "Reinforcement Learning"
+  weight = 202
+  identifier = "Reinforcement Learning"
+  url = "/reinforcement learning"
+
+[[menu.main]]
+  name = "Data Analytics"
+  weight = 203
+  identifier = "Data Analytics"
+  url = "/data analytics"
+
+# [[menu.main]]
+#   name = "Home"
+#   weight = 100
+#   identifier = "home"
+#   url = "/"
 
 [[menu.main]]
   name = "News"
   identifier = "news"
-  weight = 200
+  weight = 300
   url = "/static/news"
 
 [[menu.main]]
   name = "Knowledge Graph"
   identifier = "knowledgeGraph"
-  weight = 300
+  weight = 400
   url = "/static/knowledgeGraph"
