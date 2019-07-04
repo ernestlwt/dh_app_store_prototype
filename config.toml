@@ -9,18 +9,18 @@ disqusShortname = "digitalDisque"
 enableEmoji = true
 
 [params]
-  logo = "/images/chubbymonkey.jpg"
+  logo = "/images/chubbymonkey.png"
   description= "Welcome to DH app store!"
   # mailchimp = ""
 
 [params.author]
   name = "Digital Hub"
-  thumbnail = "images/chubbymonkey.jpg"
+  thumbnail = "/images/chubbymonkey_author.png"
   description = "Digitalizing the way we defend"
 
 ## Landing Page
 [params.index]
-  picture = "/images/chubbymonkey.jpg"
+  picture = "/images/chubbymonkey_author.png"
   title = "Digital Hub"
   subtitle = "I'm a unique placeholder. Working here and there!"
   mdtext = '''Currently trying to get this blog running, still don't know what the blog will be about!\
@@ -28,12 +28,12 @@ enableEmoji = true
   alertbar = true
 
 [params.social]
-  github = "<username>"
+  github = "DinoHub"
   linkedin = "<username>"
   xing = "<username>"
   medium = "<username>"
   twitter = "<username>"
-  instagram = "<username>"
+  instagram = "eujazzcity"
 
 ## Main Menu
 [[menu.main]]
