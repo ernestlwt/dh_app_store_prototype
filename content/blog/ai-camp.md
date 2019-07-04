@@ -8,7 +8,6 @@ type: post
 comments: true
 ---
 
-# AI Camp - Pose Classification 
 
 ### Quick Links
 - [code repository](https://github.com/DinoHub/aicamp)
