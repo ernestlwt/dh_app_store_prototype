@@ -10,16 +10,17 @@ enableEmoji = true
 pluralizelisttitles = false
 
 [params]
-  logo = "/images/chubbymonkey.jpg"
+  logo = "/images/chubbymonkey.png"
   description= "Welcome to DH app store!"
   # mailchimp = ""
 
 [params.author]
   name = "Digital Hub"
-  thumbnail = "images/chubbymonkey.jpg"
+  thumbnail = "/images/chubbymonkey_author.png"
   description = "Digitalizing the way we defend"
 
 ## Landing Page
+
 # [params.index]
 #   picture = "/images/chubbymonkey.jpg"
 #   title = "Digital Hub"
