@@ -1,6 +1,6 @@
 baseURL = "http://yourdomain.com"
 languageCode = "en-us"
-title = "DH App Store"
+title = "DSTA App Store"
 theme = "mediumish"
 summaryLength = 25
 copyright = "Digital Hub - All rights reserved"
@@ -11,7 +11,7 @@ pluralizelisttitles = false
 
 [params]
   logo = "/images/chubbymonkey.png"
-  description= "Welcome to DH app store!"
+  description= "Welcome!"
   # mailchimp = ""
 
 [params.author]
